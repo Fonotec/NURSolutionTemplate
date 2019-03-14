@@ -102,3 +102,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# latex files that need to be ignored
+*.aux
+*.bbl
+*.blg
+*.log
+*.new
+*.pdf
+
+# backup files
+*.backup
+*.swp
+
+# plot directory
+./plots/*
+./plots
+
+# ignore txt files
+*.txt
