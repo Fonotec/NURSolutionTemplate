@@ -8,6 +8,17 @@ if [ ! -d "plots" ]; then
   mkdir plots
 fi
 
+echo "Check if the sine movie exist"
+if [ -e sinemovie.mp4 ]; then
+  echo "Remove mp4 file"
+  rm sinemovie.mp4
+fi
+
+echo "Download image for in report..."
+if [ ! -e sine.png ]; then
+  wget strw.leidenuniv.nl/~nobels/sine.png 
+fi
+
 # Script that returns a plot
 echo "Run the first script ..."
 python3 sine.py
