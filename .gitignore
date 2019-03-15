@@ -110,6 +110,7 @@ venv.bak/
 *.log
 *.new
 *.pdf
+*.out
 
 # backup files
 *.backup
