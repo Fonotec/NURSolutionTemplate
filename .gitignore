@@ -126,3 +126,12 @@ venv.bak/
 *.mp4
 
 /plots
+
+# ignore images
+*.gif
+*.png
+*.jpg
+*.jpeg
+
+# ignore partitions
+.nfs*
