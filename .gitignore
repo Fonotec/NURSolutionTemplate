@@ -121,3 +121,8 @@ venv.bak/
 
 # ignore txt files
 *.txt
+
+# ignore mp4 files
+*.mp4
+
+/plots
